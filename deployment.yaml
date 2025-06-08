@@ -39,7 +39,6 @@ spec:
   type: LoadBalancer
 ---
 apiVersion: autoscaling/vi
-kind: apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: flower-app-autoscaling
